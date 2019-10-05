@@ -27,6 +27,7 @@ When instantiating a SoftAPSetup object, simply provide an options object with v
 	"channel": 6,
 	"protocol": "tcp",
 	"port": 5609 (will default to 80 if protocol = http and no port specified)
+	"publicKey": publicKey of the device (optional) 
 }
 ```
 
